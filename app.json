@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/switchcity/switchcity",
+    "pages/weather/weather",
+    "pages/news/news",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/map/map",
+    "pages/logs/logs",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2a579a",
+    "navigationBarTitleText": "湄洲攻略",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "backgroundColor": "#2a579a",
+    "color": "#DCEDC8",
+    "selectedColor": "#DCEDC8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "周边"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "景点"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "酒店"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多"
+      }
+    ]
+  }
+}
